@@ -1,2 +1,10 @@
 <!--miniprogram/pages/find/find.wxml-->
-<text>miniprogram/pages/find/find.wxml</text>
+<view wx:for="{{groups}}" >
+  <!-- {{index}}: {{item.unique}} -->
+  {{index}} : {{item.group_name}}
+  <view wx:for="{{item.chls}}">
+      <button size="mini"></button>
+      {{index}} : {{item.name}}
+      <image src="{{item.cover}}" mode='aspectFit' bindtap="handleImageTap"></image>
+  </view>
+</view>

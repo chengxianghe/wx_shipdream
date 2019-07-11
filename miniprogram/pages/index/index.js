@@ -9,7 +9,8 @@ Page({
    */
   data: {
     name: getApp().globalData.name,
-    age: getApp().globalData.age
+    age: getApp().globalData.age,
+    list: []
   },
 
   onGetUserInfoPressed: function (event){
@@ -25,17 +26,6 @@ Page({
     console.log(getAppInfo)
     app.globalData.age = 19
     console.log(getApp().globalData.age)
-
-    wx.request({
-      url: 'http://t.gexiaojie.com/api.php?&output=json&_app_key=f722d367b8a96655c4f3365739d38d85&_app_secret=30248115015ec6c79d3bed2915f9e4cc&c=column&a=indexchoiceV2&pg=0&size=20',
-      method: "GET",
-      success(res) {
-        console.log(res)
-      },
-      fail(err) {
-        console.log(err) 
-      }
-    })
   },
 
   /**

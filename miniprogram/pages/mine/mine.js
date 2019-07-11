@@ -6,7 +6,7 @@ Page({
    */
   data: {
     background: [
-      { url: '../../images/banner/banner1.png' },
+      { url: '../../images/banner/banner1.jpg' },
       { url: '../../images/banner/banner2.jpg' },
       { url: '../../images/banner/banner3.jpg' },
 
@@ -19,32 +19,32 @@ Page({
     routers: [
       {
         text: '我的账户',
-        icon: '../../images/mine/mine_account.png',
+        icon: '../../images/mine/chat_girl.jpg',
         url: '../myAccount/myAccount',
       },
       {
         text: '我的合同',
-        icon: '../../images/mine/mine_contract.png',
+        icon: '../../images/mine/chat_girl.jpg',
         url: '../myAccount/myAccount',
       },
       {
         text: '浏览记录',
-        icon: '../../images/mine/mine_browing.png',
+        icon: '../../images/mine/chat_girl.jpg',
         url: '../myAccount/myAccount',
       },
       {
         text: '我要出租',
-        icon: '../../images/mine/mine_lease.png',
+        icon: '../../images/mine/chat_girl.jpg',
         url: '../myAccount/myAccount',
       },
       {
         text: '客服',
-        icon: '../../images/mine/mine_customService.png',
+        icon: '../../images/mine/chat_girl.jpg',
         url: '../myAccount/myAccount',
       },
       {
         text: '我的收藏',
-        icon: '../../images/mine/mine_collect.png',
+        icon: '../../images/mine/chat_girl.jpg',
         url: '../myAccount/myAccount',
       }
     ] 

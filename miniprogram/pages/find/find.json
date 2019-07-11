@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText": "发现",
+  "navigationBarBackgroundColor": "#0899F5",
+  "enablePullDownRefresh": true
 }

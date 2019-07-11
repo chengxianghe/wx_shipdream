@@ -10,7 +10,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
           <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
-              <image src="../../images/chat_man.png" style="width: 50px; height: 50px; display: block"/>
+              <image src="../../images/chat_man.jpg" style="width: 50px; height: 50px; display: block"/>
               <view class="weui-badge weui-badge_dot" ></view>
           </view>
           <view class="weui-cell__bd">
@@ -27,7 +27,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
           <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
-              <image src="../../images/chat_man.png" style="width: 50px; height: 50px; display: block"/>
+              <image src="../../images/chat_man.jpg" style="width: 50px; height: 50px; display: block"/>
               <view class="weui-badge weui-badge_dot" ></view>
           </view>
           <view class="weui-cell__bd">
@@ -44,7 +44,7 @@
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
           <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
-              <image src="../../images/chat_man.png" style="width: 50px; height: 50px; display: block"/>
+              <image src="../../images/chat_man.jpg" style="width: 50px; height: 50px; display: block"/>
               <view class="weui-badge weui-badge_dot" ></view>
           </view>
           <view class="weui-cell__bd">
