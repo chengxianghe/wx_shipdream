@@ -1,5 +1,12 @@
 <!--miniprogram/pages/index/index.wxml-->
 <view class="page">  
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="onGetUserInfoPressed">
+获取授权
+</button>
+
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+<view>name:{{name}}, age:{{age}}</view>
     <view class="weui-cells weui-cells_after-title">
       <view class="weui-cell">
           <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">

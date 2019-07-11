@@ -7,8 +7,8 @@ Page({
   data: {
     background: [
       { url: '../../images/banner/banner1.png' },
-      { url: '../../images/banner/banner2.png' },
-      { url: '../../images/banner/banner3.png' },
+      { url: '../../images/banner/banner2.jpg' },
+      { url: '../../images/banner/banner3.jpg' },
 
     ],
     indicatorDots: true,
