@@ -6,48 +6,11 @@ Page({
    */
   data: {
     background: [
-      { url: '../../images/banner/banner1.png' },
-      { url: '../../images/banner/banner2.png' },
-      { url: '../../images/banner/banner3.png' },
+      { url: '../../images/banner/banner1.jpg' },
+      { url: '../../images/banner/banner2.jpg' },
+      { url: '../../images/banner/banner3.jpg' },
 
-    ],
-    indicatorDots: true,
-    vertical: false,
-    autoplay: true,
-    interval: 2000,
-    duration: 500,
-    routers: [
-      {
-        text: '我的账户',
-        icon: '../../images/mine/mine_account.png',
-        url: '../myAccount/myAccount',
-      },
-      {
-        text: '我的合同',
-        icon: '../../images/mine/mine_contract.png',
-        url: '../myAccount/myAccount',
-      },
-      {
-        text: '浏览记录',
-        icon: '../../images/mine/mine_browing.png',
-        url: '../myAccount/myAccount',
-      },
-      {
-        text: '我要出租',
-        icon: '../../images/mine/mine_lease.png',
-        url: '../myAccount/myAccount',
-      },
-      {
-        text: '客服',
-        icon: '../../images/mine/mine_customService.png',
-        url: '../myAccount/myAccount',
-      },
-      {
-        text: '我的收藏',
-        icon: '../../images/mine/mine_collect.png',
-        url: '../myAccount/myAccount',
-      }
-    ] 
+    ]
   },
 
   /**
