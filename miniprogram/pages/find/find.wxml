@@ -1,2 +1,20 @@
 <!--miniprogram/pages/find/find.wxml-->
 <text>miniprogram/pages/find/find.wxml</text>
+
+<view class="btn-area">
+  <view class="body-view">
+    <text selectable="true">{{stringData}}</text>
+    <button bindtap="add">add line</button>
+    <button bindtap="remove">remove line</button>
+  </view>
+</view>
+
+<view class="title2">页面的title2</view>
+<mycpt/>
+<view class="title3">页面的title3</view>
+
+<view>------</view>
+<myprop title="哈哈哈啊" titleclass='red'/>
+<myprop title="{{content}}" content="{{content}}" titleclass='blue'/>
+<myprop title="是撒奥奥收拾宿舍撒"/>
+<button size="mini" bindtap="changeContent">改变content</button>

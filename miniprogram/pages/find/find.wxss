@@ -1,1 +1,20 @@
 /* miniprogram/pages/find/find.wxss */
+
+.title1 {
+  font-size: 100rpx;
+  color: blue;
+}
+
+.title2 {
+  color: red;
+}
+
+.red {
+  color: red;
+  font-size: 30rpx;
+}
+
+.blue {
+  color: blue;
+  font-size: 40rpx;
+}

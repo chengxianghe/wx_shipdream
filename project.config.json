@@ -9,7 +9,7 @@
 	},
 	"appid": "wx0ac19194cedc979c",
 	"projectname": "ship_dream",
-	"libVersion": "2.2.5",
+	"libVersion": "2.7.0",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -29,12 +29,26 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "find直达",
+					"pathName": "pages/find/find",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "mine直达",
+					"pathName": "pages/mine/mine",
+					"scene": null
 				}
 			]
 		}

@@ -1,31 +1,11 @@
-// miniprogram/pages/find/find.js
-var initData = 'this is first line\nthis is second line'
-var extraLine = [];
-
+// miniprogram/pages/wxmltest/wxmltest.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    stringData: "test",
-    content: "默认的content"
-  },
-
-  add() {
-    extraLine.push("skss")
-    this.setData({
-      stringData: initData + '\n' + extraLine.join('\n')
-    })
-  },
-
-  remove() {
-    if (extraLine.length > 0) {
-      extraLine.pop()
-      this.setData({
-        stringData: initData + '\n' + extraLine.join('\n')
-      })
-    }
+    title: "经济技术"
   },
 
   /**
@@ -34,7 +14,6 @@ Page({
   onLoad: function (options) {
 
   },
-
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -45,7 +24,7 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function () {
+  onShow: function (options) {
 
   },
 
@@ -84,9 +63,7 @@ Page({
 
   },
 
-  changeContent: function() {
-    this.setData({
-      content: "改变的content"
-    })
+  handleTap(obj) {
+    console.log(obj);
   }
 })

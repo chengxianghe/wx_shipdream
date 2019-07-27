@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "mycpt": "/components/my-cpt/my-cpt",
+    "myprop": "/components/my-prop/my-prop"
+  }
 }

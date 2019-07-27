@@ -1,38 +1,18 @@
-// miniprogram/pages/find/find.js
-var initData = 'this is first line\nthis is second line'
-var extraLine = [];
-
+// miniprogram/pages/detail/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    stringData: "test",
-    content: "默认的content"
-  },
 
-  add() {
-    extraLine.push("skss")
-    this.setData({
-      stringData: initData + '\n' + extraLine.join('\n')
-    })
-  },
-
-  remove() {
-    if (extraLine.length > 0) {
-      extraLine.pop()
-      this.setData({
-        stringData: initData + '\n' + extraLine.join('\n')
-      })
-    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(options)
   },
 
   /**
@@ -60,7 +40,12 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    const pages = getCurrentPages()
+    const home = pages[0]
+  console.log(home)
+    home.setData({
+      title: "你还好"
+    })
   },
 
   /**
@@ -84,9 +69,15 @@ Page({
 
   },
 
-  changeContent: function() {
-    this.setData({
-      content: "改变的content"
+  onJumpPressed: function () {
+    wx.switchTab({
+      url: '/pages/mine/mine?temp=332',
     })
+    setTimeout(function() {
+      wx.navigateTo({
+        url: '/pages/detail/detail?temp=lll',
+      })
+    }, 2000)
+   
   }
 })

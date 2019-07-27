@@ -103,3 +103,29 @@ swiper image {
   text-overflow: ellipsis;  
   overflow: hidden;  
 }  
+
+.scroll-x-item {
+  display: inline-block;
+  background: red;
+  width: 200rpx; 
+  height: 100rpx;
+  /* width: 200 rpx;  
+  height: 200 rpx;   */
+  margin-right: 50rpx;
+  margin-bottom: 50rpx;
+  margin-top: 50rpx;
+}
+
+.scroll-container {
+  margin-top: 50rpx;
+  background: peru;
+  white-space: nowrap;
+  /* height: 300rpx; */
+}
+
+.scroll-containery {
+  margin-top: 50rpx;
+  background: peru;
+  white-space: normal;
+  height: 300rpx;
+}

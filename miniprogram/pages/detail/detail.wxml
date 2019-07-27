@@ -1,0 +1,4 @@
+<!--miniprogram/pages/detail/detail.wxml-->
+<text>miniprogram/pages/detail/detail.wxml</text>
+<navigator open-type="navigateBack">返回</navigator>
+<button size="mini" bind:tap="onJumpPressed">跳转</button>

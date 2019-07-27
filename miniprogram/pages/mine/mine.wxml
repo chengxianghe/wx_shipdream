@@ -1,13 +1,33 @@
 <!--miniprogram/pages/mine/mine.wxml-->
 <view class="page-body">
-    <view class="page-section page-section-spacing swiper">
-      <swiper indicator-dots="{{indicatorDots}}"
-        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-        <block wx:for="{{background}}" wx:key="*this">
-          <swiper-item>
-            <image src='{{item.url}}' class='slide-image' mode='aspectFill' ></image>
-          </swiper-item>
-        </block>
-      </swiper>
+  <view class="swiper-container">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}" current="{{swiperCurrent}}" bindchange="swiperChange" class="swiper">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src='{{item.url}}' class='slide-image' mode='aspectFill' bindtap="swipclick"></image>
+          <!-- <image src="{{item}}" class="img" bindtap="swipclick" /> -->
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+
+  <!--水平滚动-->
+  <scroll-view class="scroll-container" scroll-x>
+    <!--  display: inline-block-->
+    <view class="scroll-x-item" wx:for="{{10}}">
+      {{item}}
     </view>
+  </scroll-view>
+
+  <!-- 垂直滚动 -->
+  <scroll-view class="scroll-containery" scroll-y>
+    <view class="scroll-x-item" wx:for="{{10}}" wx:for-item='mov'>{{index}}: {{mov}}</view>
+  </scroll-view>
+
+
+  <!-- key的作用 -->
+  <!-- 绑定id 可以提高性能，可复用（diff算法） -->
+  <view wx:for="{{letters}}" wx:key>{{item}}</view>
 </view>
+

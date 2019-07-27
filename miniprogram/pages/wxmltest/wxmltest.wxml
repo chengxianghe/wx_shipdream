@@ -1,0 +1,22 @@
+<!--miniprogram/pages/wxmltest/wxmltest.wxml-->
+<text>miniprogram/pages/wxmltest/wxmltest.wxml</text>
+
+<!-- template -->
+<!-- 模版 -->
+
+<!-- import不支持递归导入，include可以 -->
+<!-- <import src="/lib/abc.wxml"/> -->
+<include src='/lib/abc.wxml'/>
+
+<!-- <template is="containerItem" data="{{btntext: '按钮啊', content: 112}}"/> -->
+
+<button bindtap="handleTap" size="mini">按钮</button>
+
+<view wx:for="{{10}}" wx:key="hhh" wx-key-item="hhh">
+<view>{{hhh}}</view>
+</view>
+
+<!-- <button size="mini" open-type="nav"></button> -->
+<!-- <navigator url="/pages/mine/mine?test=test11&temp=88">跳转到我的</navigator> -->
+<navigator open-type="navigate" url="/pages/detail/detail?test=test11&temp=88">跳转到详情</navigator>
+<navigator open-type="switchTab" url="/pages/mine/mine?test=test11&temp=88">跳转到我的</navigator>

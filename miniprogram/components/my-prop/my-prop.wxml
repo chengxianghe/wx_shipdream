@@ -1,0 +1,6 @@
+<!--components/my-prop/my-prop.wxml-->
+
+<view class="title titleclass">{{title}}</view>
+<view class="content">{{content}}</view>
+
+<button size="mini" bindlongtap="handleIncrement">按钮</button>

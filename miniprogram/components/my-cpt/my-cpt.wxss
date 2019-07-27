@@ -1,0 +1,11 @@
+/* component/my-cpt/my-cpt.wxss */
+
+.title1 {
+  font-size: 50rpx;
+  font-weight: 400;
+}
+
+.title2 {
+  font-size: 40rpx;
+  color: orange;
+}

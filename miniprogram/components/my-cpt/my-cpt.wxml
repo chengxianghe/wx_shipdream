@@ -1,0 +1,4 @@
+<!--component/my-cpt/my-cpt.wxml-->
+
+<view class="title1">{{title}}</view>
+<view class="title2">组件内 你在想什么</view>
